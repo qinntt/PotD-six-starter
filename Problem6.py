@@ -13,12 +13,6 @@ def len0xOrder(int1, int2):
 
 if __name__ == "__main__":
     import sys
-    print(string_oder_int(4.1))
-    print(string_oder_int(4))
-    print(len0x(10))
-    print(len0x('10'))
-    print(len0xOrder(1,3))
-    print(len0xOrder('2',3))
     if len(sys.argv) == 3:
         print(string_oder_int(sys.argv[0]))
         print(len0x(sys.argv[1]))
