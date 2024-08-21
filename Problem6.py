@@ -10,6 +10,9 @@ def len0xOrder(int1, int2):
     # and will return negative one if either are not 
     # then will return the larger of the two
     return -1
+def letter_and_s(inpt):
+    # plesae make code that tests if the inpt is a string and the letter s
+    return -1
 
 def treat_input(inpt):
         try:
@@ -22,12 +25,15 @@ def treat_input(inpt):
 
 if __name__ == "__main__":
     import sys
-    if len(sys.argv) == 5:
+    if len(sys.argv) == 6:
+        
         holder  = treat_input(sys.argv[1])
         holder1 = treat_input(sys.argv[2])
         holder2 = treat_input(sys.argv[3])
         holder3 = treat_input(sys.argv[4])
+        holder4 = treat_input(sys.argv[5])
 
         print(string_oder_int(holder))
         print(len0x(holder1))
         print(len0xOrder(holder2, holder3))
+        print(letter_and_s(holder4))
